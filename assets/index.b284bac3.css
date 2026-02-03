@@ -53,7 +53,7 @@
     left: -.8vw;
     width: .5208vw;
     height: 100%;
-    background-color: #000;
+    background-color: rgb(var(--menu-color));
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -123,7 +123,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    background-color: #000;
+    background-color: rgb(var(--menu-color));
     border-left: .0521vw solid black;
     border-right: .0521vw solid black;
     border-bottom: .0521vw solid black;
@@ -174,7 +174,7 @@
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    background-color: #0009;
+    background-color: rgba(var(--menu-color), 0.06);
     border-radius: .3125vw;
     overflow-y: hidden
 }
@@ -549,7 +549,7 @@
     margin-top: .2083vw;
     justify-content: center;
     align-items: center;
-    background-color: #000;
+    background-color: rgb(var(--menu-color));
     border-radius: .3125vw
 }
 
